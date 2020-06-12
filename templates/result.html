@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower App</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/result.css')}}">
+    <!-- <link rel="stylesheet" href="{{ url_for('static',filename='css/uploader.css')}}">  -->
+<link rel="stylesheet" href="{{ url_for('static',filename='css/uploader.css')}}">
+
+</head>
+<body>
+    <div class="result">
+        <img src={{image_file}} width="400" height="300" style="display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;">
+        <h2>Prediction</h2>
+        <p>Caption: {{ caption }}</p>
+    </div>
+</body>
+</html>
