@@ -1,4 +1,3 @@
-matplotlib
 absl-py==0.9.0
 astunparse==1.6.3
 cachetools==4.1.0
@@ -22,6 +21,7 @@ MarkupSafe==1.1.1
 numpy==1.18.5
 oauthlib==3.1.0
 opt-einsum==3.2.1
+Pillow==7.1.2
 protobuf==3.12.2
 pyasn1==0.4.8
 pyasn1-modules==0.2.8

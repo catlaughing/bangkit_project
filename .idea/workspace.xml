@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="521c1ad0-cbd6-4cae-b4e7-5e68546b87aa" name="Default Changelist" comment="" />
+    <list default="true" id="521c1ad0-cbd6-4cae-b4e7-5e68546b87aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dDzZoY0ZasAQWcAKC6zdnLCRva" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -89,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591974509821</updated>
-      <workItem from="1591974512949" duration="14962000" />
+      <workItem from="1591974512949" duration="18605000" />
     </task>
     <servers />
   </component>
@@ -101,26 +109,58 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591987503416" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1591995976493">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1591998197469">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591995976493" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1591995976493">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1591998197469" />
+    <state x="121" y="55" key="DiffContextDialog" timestamp="1591998224301">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591995976493" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1591995976493">
+    <state x="121" y="55" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998224301" />
+    <state x="505" y="254" key="Github.ShareDialog" timestamp="1591997740305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591995976493" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1591995976493">
+    <state x="505" y="254" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1591997740305" />
+    <state x="503" y="66" key="Github.UntrackedFilesDialog" timestamp="1591997816510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591995976493" />
+    <state x="503" y="66" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591997816510" />
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom" timestamp="1591998497955">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591998497955" />
+    <state width="1236" height="176" key="GridCell.Tab.0.center" timestamp="1591998497955">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591998497955" />
+    <state width="1236" height="176" key="GridCell.Tab.0.left" timestamp="1591998497955">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591998497955" />
+    <state width="1236" height="176" key="GridCell.Tab.0.right" timestamp="1591998497955">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591998497955" />
+    <state x="503" y="83" key="RollbackChangesDialog" timestamp="1591998245539">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="503" y="83" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998245539" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1591987781949">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1591987781949" />
+    <state x="403" y="49" key="VCS.ChangeListViewerDialog" timestamp="1591998260676">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="403" y="49" key="VCS.ChangeListViewerDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998260676" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1591998509473">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1591998509473" />
+    <state x="457" y="255" key="git4idea.ui.GitResetDialog" timestamp="1591998261955">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="457" y="255" key="git4idea.ui.GitResetDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998261955" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bangkit_project$bangkit_project.coverage" NAME="bangkit_project Coverage Results" MODIFIED="1591995976132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
