@@ -1,34 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Caption Me!</title>
+        <title>Flower App</title>
         <!-- Responsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- CSS -->
-        <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
-        <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/uploader.css') }}">
     </head>
-    <body class="bg vignette">
-        <div class="container">
-            <div class="header">
-                <h1>Too busy to <br>
-                    create a caption?</h2>
-                <h3>CaptionMe!</h3>
-                <p>An Auto Image Captioning.</p>
-                <!-- <input type="submit" value="Try it >" class="file-try-btn"> -->
-                <!-- <a href="main.html">Try it ></a> -->
-                <form method='post' enctype=multipart/form-data>
-                    <input type="submit" value="TRY IT NOW" class="file-try-btn">
-                </form>
-            </div>
-        </div>
-        <!-- Footer -->
-        <div class="footer f-cont">
-            <img src="../static/img/bangkit.png">
-            <p>Copyright Bandung 5 - C 2020</p>
+    <body>
+        <div class="file-upload">
+            <h2 style="text-align:center;">Upload your image</h2>
+            <form method='post' enctype=multipart/form-data>
+                <input type="file" name="file" class="image-upload-input">
+                <input type="submit" value="upload" class="file-upload-btn">
+            </form>
         </div>
         <!-- Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -2,7 +2,14 @@ body {
   font-family: sans-serif;
   background-image: url('/static/img/background.png');
 }
-
+.header{
+  top: 50%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
 .file-upload {
   /* background-color: #ffffff; */
   /* background-image: ;  */
