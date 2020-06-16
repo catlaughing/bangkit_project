@@ -21,7 +21,6 @@ def allowed_file(filename):
 
 @app.route('/', methods=['GET','POST'])
 def hello_world():
-
     if request.method == 'GET':
         return render_template('index.html')
 
@@ -47,4 +46,3 @@ def hello_world():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
