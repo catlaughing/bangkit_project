@@ -29,7 +29,7 @@ def hello_world():
         target = os.path.join(APP_ROOT,'static/img/uploaded')
         if 'file' not in request.files:
             print('file not uploaded')
-            return render_template('index.html')
+            return render_template('main.html')
         file = request.files['file']
         if file and allowed_file(file.filename):
             filename = file.filename
@@ -45,4 +45,4 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
