@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="521c1ad0-cbd6-4cae-b4e7-5e68546b87aa" name="Default Changelist" comment="">
+    <list default="true" id="521c1ad0-cbd6-4cae-b4e7-5e68546b87aa" name="Default Changelist" comment="Update reqiuirements.txt&#10;Model dan word_indices udah benar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_weights.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_weights.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1dDzZoY0ZasAQWcAKC6zdnLCRva" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -111,7 +109,8 @@
       <workItem from="1591974512949" duration="19891000" />
       <workItem from="1592151178301" duration="1281000" />
       <workItem from="1592214549067" duration="10902000" />
-      <workItem from="1592291934735" duration="1508000" />
+      <workItem from="1592291934735" duration="2426000" />
+      <workItem from="1592576944765" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="Update reqiuirements.txt">
       <created>1592027462864</created>
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592027462864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update reqiuirements.txt&#10;Model dan word_indices udah benar">
+      <created>1592293880013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592293880013</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,17 +134,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update reqiuirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update reqiuirements.txt" />
+    <MESSAGE value="Update reqiuirements.txt&#10;Model dan word_indices udah benar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update reqiuirements.txt&#10;Model dan word_indices udah benar" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591987503416">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591987503416" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1592027461450">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1592577077177">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1592027461450" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1592577077177" />
     <state x="121" y="55" key="DiffContextDialog" timestamp="1592027440871">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -151,22 +159,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="503" y="66" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591997816510" />
-    <state width="1236" height="173" key="GridCell.Tab.0.bottom" timestamp="1592293796020">
+    <state width="617" height="173" key="GridCell.Tab.0.bottom" timestamp="1592306171730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
-    <state width="1236" height="173" key="GridCell.Tab.0.center" timestamp="1592293796020">
+    <state width="617" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592306171730" />
+    <state width="617" height="173" key="GridCell.Tab.0.center" timestamp="1592306171730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
-    <state width="1236" height="173" key="GridCell.Tab.0.left" timestamp="1592293796020">
+    <state width="617" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592306171730" />
+    <state width="617" height="173" key="GridCell.Tab.0.left" timestamp="1592306171730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
-    <state width="1236" height="173" key="GridCell.Tab.0.right" timestamp="1592293796020">
+    <state width="617" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592306171730" />
+    <state width="617" height="173" key="GridCell.Tab.0.right" timestamp="1592306171730">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
+    <state width="617" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592306171730" />
     <state x="503" y="83" key="RollbackChangesDialog" timestamp="1592293831804">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -179,10 +187,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="403" y="49" key="VCS.ChangeListViewerDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998260676" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1592216691327">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1592293890444">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1592216691327" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1592293890444" />
     <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1592291937970">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -191,6 +199,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="374" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.720@0.0.1280.720" timestamp="1592216945465" />
+    <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592577086318">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1592577086318" />
     <state x="457" y="255" key="git4idea.ui.GitResetDialog" timestamp="1591998261955">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
