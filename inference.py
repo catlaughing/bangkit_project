@@ -32,3 +32,22 @@ def predict_captions(image, model):
             break
 
     return ' '.join(start_word[1:-1])
+
+def createCaption(photo,model):
+    model.reset_states()
+    word_index, index_word = read_helper_file()
+    in_text = 'startseq'
+    max_length = 34
+    for i in range(max_length):
+        sequence = [word_index[w] for w in in_text.split() if w in word_index]
+        sequence = pad_sequences([sequence], maxlen=max_length)
+        yhat = model.predict([photo,sequence], verbose=0)
+        yhat = np.argmax(yhat)
+        word = index_word[yhat]
+        in_text += ' ' + word
+        if word == 'endseq':
+            break
+    final = in_text.split()
+    final = final[1:-1]
+    final = ' '.join(final)
+    return final
