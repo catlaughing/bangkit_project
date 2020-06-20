@@ -43,6 +43,6 @@ def create_model():
     x = Dense(vocab_size)(x)
     out = Activation('softmax')(x)
     model = Model(inputs=[image_model.input, language_model.input], outputs=out)
-    model.load_weights('models/model_weights.h5')
+    model.load_weights('models/model_weights (1).h5')
 
     return model

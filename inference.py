@@ -1,16 +1,15 @@
 import pickle
-
 import numpy as np
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 def read_helper_file():
     # Read Word Index
-    infile = open("files/word_index.pkl", 'rb')
+    infile = open("files/word_2_indices", 'rb')
     word_index = pickle.load(infile)
     infile.close()
 
-    infile = open("files/index_word.pkl", 'rb')
+    infile = open("files/indices_2_word", 'rb')
     index_word = pickle.load(infile)
     infile.close()
     return word_index,index_word
