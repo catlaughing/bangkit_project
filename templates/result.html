@@ -18,8 +18,8 @@
                 <a href="index.html">
                     <h3>CaptionMe!</h3>
                 </a>
-                
-                <img src={{image_file}}>
+
+                <img src={{ image_file }}>
                 <h4>Your caption:</h4>
                 <div class="caption">
                     <!-- <p>Caption: </p> -->
@@ -28,14 +28,18 @@
                 <div class="button">
                     <button class="file-btn" onclick="myFunction('capt-result')">Copy text</button>
                     <button class="file-btn" onclick="">Caption More!</button>
+                    {% block content %}
+                        <audio src="{{ sayit(text=caption).replace('%5C','/') }}" controls></audio>
+                    {% endblock %}
+
                 </div>
-                
+
             </div>
-            
+
         </div>
 
         <!-- Footer -->
-        
+
         <div id="foot" class="footer f-cont">
             <a href="https://events.withgoogle.com/bangkit/" target="_blank">
                 <img src="../static/img/bangkit.png">

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="521c1ad0-cbd6-4cae-b4e7-5e68546b87aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/model_rn50_glove.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/index_word.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/files/index_word.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/word_index.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/files/word_index.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_weights.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_weights.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,22 +99,38 @@
       <option name="presentableId" value="Default" />
       <updated>1591974509821</updated>
       <workItem from="1591974512949" duration="18605000" />
-      <workItem from="1592643664443" duration="6215000" />
+      <workItem from="1592643664443" duration="9276000" />
     </task>
+    <task id="LOCAL-00001" summary="Pakai model nya mba intan yang resnet sama glove, hasil nya udah good, belum ditambahin text to speech">
+      <created>1592650623146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592650623146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pakai model nya mba intan yang resnet sama glove, hasil nya udah good, belum ditambahin text to speech" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pakai model nya mba intan yang resnet sama glove, hasil nya udah good, belum ditambahin text to speech" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591987503416">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591987503416" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1591998197469">
+    <state x="309" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592652660791">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1591998197469" />
+    <state x="309" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1592652660791" />
+    <state x="225" y="0" key="CommitChangelistDialog2" timestamp="1592653683720">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="225" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1592653683720" />
     <state x="121" y="55" key="DiffContextDialog" timestamp="1591998224301">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -132,22 +143,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="503" y="66" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591997816510" />
-    <state width="617" height="173" key="GridCell.Tab.0.bottom" timestamp="1592650127290">
+    <state width="616" height="173" key="GridCell.Tab.0.bottom" timestamp="1592653693345">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="617" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592650127290" />
-    <state width="617" height="173" key="GridCell.Tab.0.center" timestamp="1592650127289">
+    <state width="616" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592653693345" />
+    <state width="616" height="173" key="GridCell.Tab.0.center" timestamp="1592653693345">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="617" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592650127289" />
-    <state width="617" height="173" key="GridCell.Tab.0.left" timestamp="1592650127289">
+    <state width="616" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592653693345" />
+    <state width="616" height="173" key="GridCell.Tab.0.left" timestamp="1592653693345">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="617" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592650127289" />
-    <state width="617" height="173" key="GridCell.Tab.0.right" timestamp="1592650127290">
+    <state width="616" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592653693345" />
+    <state width="616" height="173" key="GridCell.Tab.0.right" timestamp="1592653693345">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="617" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592650127290" />
+    <state width="616" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592653693345" />
     <state x="503" y="83" key="RollbackChangesDialog" timestamp="1591998245539">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -160,17 +171,17 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="403" y="49" key="VCS.ChangeListViewerDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998260676" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1591998509473">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1592650695420">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1591998509473" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1592650695420" />
     <state x="457" y="255" key="git4idea.ui.GitResetDialog" timestamp="1591998261955">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="457" y="255" key="git4idea.ui.GitResetDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998261955" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bangkit_project$bangkit_project.coverage" NAME="bangkit_project Coverage Results" MODIFIED="1592650127203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bangkit_project$bangkit_project.coverage" NAME="bangkit_project Coverage Results" MODIFIED="1592653132246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bangkit_project$inference.coverage" NAME="inference Coverage Results" MODIFIED="1591992134059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

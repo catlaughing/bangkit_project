@@ -1,10 +1,14 @@
-from flask import Flask, request, render_template
 import os
-from preprocessing import preprocessing_image, get_encoding
-from inference import createCaption
+
+from flask import Flask, request, render_template
+from flask_gtts import gtts
 from tensorflow.keras.models import load_model
 
+from inference import createCaption
+from preprocessing import preprocessing_image, get_encoding
+
 app = Flask(__name__)
+gtts(app)
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_FOLDER = 'static/img/uploaded'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'jfif'])
