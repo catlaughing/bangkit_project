@@ -20,29 +20,29 @@ def get_encoding(model, img):
     return pred
 
 
-def create_model():
-    embedding_size = 128
-    max_len = 40
-    word_index,_ = read_helper_file()
-    vocab_size = len(word_index)
-
-    # Image Input
-    image_model = Sequential()
-    image_model.add(Dense(embedding_size, input_shape=(2048,), activation='relu'))
-    image_model.add(RepeatVector(max_len))
-
-    # Caption Input
-    language_model = Sequential()
-    language_model.add(Embedding(input_dim=vocab_size, output_dim=embedding_size, input_length=max_len))
-    language_model.add(LSTM(256, return_sequences=True))
-    language_model.add(TimeDistributed(Dense(embedding_size)))
-
-    conca = Concatenate()([image_model.output, language_model.output])
-    x = LSTM(128, return_sequences=True)(conca)
-    x = LSTM(512, return_sequences=False)(x)
-    x = Dense(vocab_size)(x)
-    out = Activation('softmax')(x)
-    model = Model(inputs=[image_model.input, language_model.input], outputs=out)
-    model.load_weights('models/model_weights.h5')
-
-    return model
+# def create_model():
+#     embedding_size = 128
+#     max_len = 40
+#     word_index,_ = read_helper_file()
+#     vocab_size = len(word_index)
+#
+#     # Image Input
+#     image_model = Sequential()
+#     image_model.add(Dense(embedding_size, input_shape=(2048,), activation='relu'))
+#     image_model.add(RepeatVector(max_len))
+#
+#     # Caption Input
+#     language_model = Sequential()
+#     language_model.add(Embedding(input_dim=vocab_size, output_dim=embedding_size, input_length=max_len))
+#     language_model.add(LSTM(256, return_sequences=True))
+#     language_model.add(TimeDistributed(Dense(embedding_size)))
+#
+#     conca = Concatenate()([image_model.output, language_model.output])
+#     x = LSTM(128, return_sequences=True)(conca)
+#     x = LSTM(512, return_sequences=False)(x)
+#     x = Dense(vocab_size)(x)
+#     out = Activation('softmax')(x)
+#     model = Model(inputs=[image_model.input, language_model.input], outputs=out)
+#     model.load_weights('models/model_weights.h5')
+#
+#     return model
