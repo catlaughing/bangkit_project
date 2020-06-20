@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>CaptionMe!</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/jpg" href="../static/img/favicon_io/favicon-16x16.png"/>
         <!-- Responsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap CSS -->
@@ -11,35 +12,119 @@
         <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
         <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
     </head>
-    <body class="bg vignette">
-        <div class="container">
-            <div class="header">
-                <h1>Too busy to <br>
-                    create a caption?</h2>
-                <h3>CaptionMe!</h3>
-                <p>An Auto Image Captioning.</p>
-                <!-- <input type="submit" value="Try it >" class="file-try-btn"> -->
-                <!-- <a href="main.html">Try it ></a> -->
-                <form method='post' enctype=multipart/form-data>
-                    <input type="submit" value="TRY IT NOW" class="file-try-btn">
-                </form>
+    <body>
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid bg vignette">
+            <div class="container">
+                <div class="header">
+                    <h1>Too busy to <br>
+                        create a caption?</h2>
+                    <h3>CaptionMe!</h3>
+                    <p>An Auto Image Captioning.</p>
+                    <!-- <input type="submit" value="Try it >" class="file-try-btn"> -->
+                    <!-- <a href="main.html">Try it ></a> -->
+                    <form method="post" action="">
+                        <input type="submit" value="TRY IT NOW" class="file-try-btn">
+                    </form>
+                </div>
             </div>
         </div>
-
-        <!-- Footer -->
+            
+        <!-- Content -->
+        <div class="content">
+            <div class="container">
+                <!-- Example -->
+                <h1>See how it's work!</h1>
+                <div class="row ct-space">
+                    <div class="col-sm-8">
+                        <h2>Auto Image Caption</h2>
+                        <h4>Create a caption to explain what is on the image. It can helps people to explain what are they see.</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://img.icons8.com/nolan/150/image.png"/>
+                    </div>
+                </div>
+                <div class="row ct-space">
+                    <div class="col-sm-4">
+                        <img src="https://img.icons8.com/nolan/150/speech-bubble.png"/>
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Text to Speech Feature</h2>
+                        <h4>Easily explain the caption with the text to speech feature.</h4>
+                    </div>
+                </div>
+                <!-- Our Team -->
+                <div class="team">
+                    <h2>About Us</h2>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5103AQFqrz_dQhed2w/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=QNPrOFuwIbooLdbU9Jc0ZbQrYH_MKCe7U0Gml4hsjso" alt="">
+                            <p>Hanifan Rizki Nurahman</p>
+                            <div class="profile">
+                                <a href="https://www.linkedin.com/in/hanifan-rizki-nurahman/" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/linkedin.png"/>
+                                </a>
+                                <a href="https://github.com/rightfel" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/github.png"/>
+                                </a>                                                               
+                            </div>                            
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHab_AxaIsjSw/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=RrZUkMUP41wjLsZyROSCtb-ROj3LS7xlMtN91oitMpM" alt="">
+                            <p>Intan Dea Yutami</p>
+                            <div class="profile">
+                                <a href="https://www.linkedin.com/in/intandea/" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/linkedin.png"/>
+                                </a>
+                                <a href="https://github.com/intandeay" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/github.png"/>
+                                </a>                                                               
+                            </div>  
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5103AQGmJNMoqMq0ew/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=2G8kZQlIAozq-nY9QVQ8ZBcW7wNzh18V6WC6Lo2YXaY" alt="">
+                            <p>Nuur Shadieq</p>
+                            <div class="profile">
+                                <a href="https://www.linkedin.com/in/shadieqq/" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/linkedin.png"/>
+                                </a>
+                                <a href="https://github.com/catlaughing" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/github.png"/>
+                                </a>                                                               
+                            </div>  
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHGk0izGm-jww/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=V_iHrD_e6PtUYfJk-qYtnVh7dnTR91SrThqssWzCK3c" alt="">
+                            <p>Zanuar Ekaputra R</p>
+                            <div class="profile">
+                                <a href="https://www.linkedin.com/in/zanuar-er/" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/linkedin.png"/>
+                                </a>
+                                <a href="https://github.com/zanuarts" target="_blank">
+                                    <img src="https://img.icons8.com/nolan/50/github.png"/>
+                                </a>                                                               
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
+        <!-- Footer -->
         <div id="foot" class="footer f-cont">
-            <a href="https://events.withgoogle.com/bangkit/" target="_blank">
-                <img src="../static/img/bangkit.png">
-            </a>
-            <a href="">
-                <p>© Bandung 5 - C 2020</p>
-            </a>
+            <footer>
+                <a href="https://events.withgoogle.com/bangkit/" target="_blank">
+                    <img src="../static/img/bangkit.png">
+                </a>
+                <a href="">
+                    <p>© Bandung 5 - C 2020</p>
+                </a>
+            </footer>
         </div>
 
         <!-- VUE JS -->
-        <!-- <script src="../static/js/main.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+        <!-- <script src="../static/js/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
 
         <!-- Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
