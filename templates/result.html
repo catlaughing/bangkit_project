@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>CaptionMe!</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/jpg" href="../static/img/favicon_io/favicon-16x16.png"/>
         <!-- Responsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap CSS -->
@@ -11,31 +13,56 @@
         <link rel="stylesheet" href="{{ url_for('static',filename='css/result.css')}}">
         <link rel="stylesheet" href="../static/css/result.css">
     </head>
-    <body class="bg vignette">
+    <body>
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid bg vignette">
+            <div class="container">
+                <div class="result">
+                    <a href="">
+                        <h3>CaptionMe!</h3>
+                    </a>
+                    <img src={{ image_file }}>
+                    <h4>Your caption:</h4>
+                    <div class="caption">
+                        <!-- <p>Caption: </p> -->
+                        <p id="capt-result" value="{{ caption }}">{{ caption }}</p>
+                    </div>
+                    <div class="button">
+                    <div class="row">
+                        
+                        <div class="col-sm-4">
+                            <button class="file-btn" onclick="myFunction('capt-result')">Copy text</button>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="">
+                                <button class="file-btn" onclick="">Caption More!</button>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-4">
+                            <audio id="audio" src="{{ sayit(text=caption).replace('%5C','/') }}"></audio>
+                                <button class="file-btn" onclick="document.getElementById('audio').play()" >Play</button>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    
+                        <!-- {% block content %} -->
+                            <!-- <audio src="{{ sayit(text=caption).replace('%5C','/') }}" controls></audio> -->
+                        <!-- {% endblock %} -->
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="container">
-            <div class="result">
-                <a href="index.html">
-                    <h3>CaptionMe!</h3>
-                </a>
-                
-                <img src={{image_file}}>
-                <h4>Your caption:</h4>
-                <div class="caption">
-                    <!-- <p>Caption: </p> -->
-                    <p id="capt-result" value="{{ caption }}">{{ caption }}</p>
-                </div>
-                <div class="button">
-                    <button class="file-btn" onclick="myFunction('capt-result')">Copy text</button>
-                    <button class="file-btn" onclick="">Caption More!</button>
-                </div>
-                
-            </div>
             
+
         </div>
 
         <!-- Footer -->
-        
+
         <div id="foot" class="footer f-cont">
             <a href="https://events.withgoogle.com/bangkit/" target="_blank">
                 <img src="../static/img/bangkit.png">

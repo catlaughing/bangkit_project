@@ -3,9 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="521c1ad0-cbd6-4cae-b4e7-5e68546b87aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_weights.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_weights.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/0 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/0(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/1585543643133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/1800x1200_cats_and_excessive_meowing_ref_guide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/238393.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/292fbfc61d73444701670dc6064bb61a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/73729.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/Anis-Merah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/M3_Centaur_by_captainsavvy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/WhatsApp Image 2020-06-04 at 9.44.16 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/_111434467_gettyimages-1143489763.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/__results___54_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/__results___8_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/download.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/ecab8c7af42a439d9043b0ade6e1f05b_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/uploaded/modern-humans-europe-full-width.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_predict.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +39,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="model_mba_intan" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1dDzZoY0ZasAQWcAKC6zdnLCRva" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -91,10 +103,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.inference" />
-        <item itemvalue="Python.inference" />
-        <item itemvalue="Python.inference" />
-        <item itemvalue="Python.inference" />
-        <item itemvalue="Python.inference" />
       </list>
     </recent_temporary>
   </component>
@@ -108,41 +116,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591974509821</updated>
-      <workItem from="1591974512949" duration="19891000" />
-      <workItem from="1592151178301" duration="1281000" />
-      <workItem from="1592214549067" duration="10902000" />
-      <workItem from="1592291934735" duration="1508000" />
+      <workItem from="1591974512949" duration="18605000" />
+      <workItem from="1592643664443" duration="9276000" />
+      <workItem from="1592664009483" duration="6696000" />
     </task>
-    <task id="LOCAL-00001" summary="Update reqiuirements.txt">
-      <created>1592027462864</created>
+    <task id="LOCAL-00001" summary="Pakai model nya mba intan yang resnet sama glove, hasil nya udah good, belum ditambahin text to speech">
+      <created>1592650623146</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1592027462864</updated>
+      <updated>1592650623146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pakai model nya mba intan yang resnet sama glove, hasil nya udah good, belum ditambahin text to speech">
+      <created>1592664149412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592664149412</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Pakai model nya mba intan yang resnet sama glove, hasil nya udah good, belum ditambahin text to speech">
+      <created>1592667100246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592667100246</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tambahin requirements.txt">
+      <created>1592677045245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592677045245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update reqiuirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update reqiuirements.txt" />
+    <MESSAGE value="Pakai model nya mba intan yang resnet sama glove, hasil nya udah good, belum ditambahin text to speech" />
+    <MESSAGE value="Tambahin requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tambahin requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591987503416">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591987503416" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1592027461450">
+    <state x="309" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592680241001">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1592027461450" />
-    <state x="121" y="55" key="DiffContextDialog" timestamp="1592027440871">
+    <state x="309" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1592680241001" />
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592680994289">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="121" y="55" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1592027440871" />
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1592680994289" />
+    <state x="36" y="0" key="CommitChangelistDialog2" timestamp="1592686504518">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="36" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1592686504518" />
+    <state width="175" height="442" key="Diff.GoToChangePopup" timestamp="1592665349417">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="175" height="442" key="Diff.GoToChangePopup/0.0.1280.720@0.0.1280.720" timestamp="1592665349417" />
+    <state x="64" y="23" width="1024" height="604" key="DiffContextDialog" timestamp="1592665538620">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="64" y="23" width="1024" height="604" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1592665538620" />
     <state x="505" y="254" key="Github.ShareDialog" timestamp="1591997740305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -151,26 +192,30 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="503" y="66" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591997816510" />
-    <state width="1236" height="173" key="GridCell.Tab.0.bottom" timestamp="1592293796020">
+    <state width="615" height="170" key="GridCell.Tab.0.bottom" timestamp="1592678960611">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
-    <state width="1236" height="173" key="GridCell.Tab.0.center" timestamp="1592293796020">
+    <state width="615" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592678960611" />
+    <state width="615" height="170" key="GridCell.Tab.0.center" timestamp="1592678960611">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
-    <state width="1236" height="173" key="GridCell.Tab.0.left" timestamp="1592293796020">
+    <state width="615" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592678960611" />
+    <state width="615" height="170" key="GridCell.Tab.0.left" timestamp="1592678960582">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
-    <state width="1236" height="173" key="GridCell.Tab.0.right" timestamp="1592293796020">
+    <state width="615" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592678960582" />
+    <state width="615" height="170" key="GridCell.Tab.0.right" timestamp="1592678960611">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592293796020" />
-    <state x="503" y="83" key="RollbackChangesDialog" timestamp="1592293831804">
+    <state width="615" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592678960611" />
+    <state x="354" y="77" key="MultipleFileMergeDialog" timestamp="1592664992819">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="503" y="83" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1592293831804" />
+    <state x="354" y="77" key="MultipleFileMergeDialog/0.0.1280.720@0.0.1280.720" timestamp="1592664992819" />
+    <state x="503" y="83" key="RollbackChangesDialog" timestamp="1591998245539">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="503" y="83" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998245539" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1591987781949">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -179,25 +224,29 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="403" y="49" key="VCS.ChangeListViewerDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998260676" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1592216691327">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1592686531584">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1592216691327" />
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1592291937970">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1592686531584" />
+    <state x="93" y="93" width="1095" height="535" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1592654527796">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1592291937970" />
-    <state x="374" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592216945465">
+    <state x="93" y="93" width="1095" height="535" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1280.720@0.0.1280.720" timestamp="1592654527796" />
+    <state x="0" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1592664091789">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="374" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.720@0.0.1280.720" timestamp="1592216945465" />
+    <state x="0" y="369" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1592664091789" />
+    <state x="466" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592677933699">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="466" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1592677933699" />
     <state x="457" y="255" key="git4idea.ui.GitResetDialog" timestamp="1591998261955">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="457" y="255" key="git4idea.ui.GitResetDialog/0.0.1280.720@0.0.1280.720" timestamp="1591998261955" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bangkit_project$bangkit_project.coverage" NAME="bangkit_project Coverage Results" MODIFIED="1592293075028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bangkit_project$bangkit_project.coverage" NAME="bangkit_project Coverage Results" MODIFIED="1592677956272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bangkit_project$inference.coverage" NAME="inference Coverage Results" MODIFIED="1591992134059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
